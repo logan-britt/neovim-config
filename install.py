@@ -27,7 +27,6 @@ new_plugin_location = os.path.join(vim_location, 'plugged')
 
 # create the new location for the vim plugins in the init script
 init_text[0] = f"call plug#begin('{new_plugin_location}')\n"
-print(init_text[0])
 
 # make all of the text one string
 out_text = ''
