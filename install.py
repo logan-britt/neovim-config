@@ -4,16 +4,6 @@ import platform
 
 print('\n')
 
-# install the neovim package
-if platform.system() == 'Linux':
-  pass
-
-elif platform.system() == 'Darwin':
-  pass
-
-elif platform.system() == 'Windows':
-  pass
-
 # read the init.vim file and change it for the operating system and user
 init_text = []
 with open('init.vim', 'r') as init_file:
